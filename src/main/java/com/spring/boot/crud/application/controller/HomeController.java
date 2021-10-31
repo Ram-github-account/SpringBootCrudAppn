@@ -12,5 +12,6 @@ public class HomeController {
 	@GetMapping("/welcome/{name}")
 	public String getWelcomeMsg(@PathVariable String name) {
 		return "Hi " + name + " , welcome to springbootcrudapp ............!!!!!!!!!!!!!!!!!!!!";
+
 	}
 }
